@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <title>LeaderBoard</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="header-container">
+    <nav class="nav-header">
+      <a href="#" class="logo">LeaderBoard</a>
+      <div class="menu-icon fas fa-bars"></div>
+    </nav>
+  </header>
+
+  <main class="main-container home">
+      <section class="scores">
+        <div class="score-header">
+          <h2>Recent scores</h2>
+          <button type="submit" class="refresh">Refresh</button>
+        </div>
+        <div class="scores-container">
+          <ul>
+            <li><span>Name</span><span>:100</span></li>
+            <li><span>Name</span><span>:20</span></li>
+            <li><span>Name</span><span>:50</span></li>
+            <li><span>Name</span><span>:78</span></li>
+            <li><span>Name</span><span>:125</span></li>
+            <li><span>Name</span><span>:42</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="submits">
+        <form method="post">
+          <h3>Add your score</h3>
+          <input type="text" name="player" required maxlength="50" placeholder="Your name" class="input-box">
+          <input type="number" name="score" min="1" maxlength="7" placeholder="Your score" required class="input-box">
+          <button type="submit" class="submit-button">Submit</button>
+        </form>
+      </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>

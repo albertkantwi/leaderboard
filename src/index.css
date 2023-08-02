@@ -1,0 +1,88 @@
+.header-container {
+  background-color: #363636;
+  padding: 16px;
+  color: #fff;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-container {
+  padding: 32px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.scores {
+  flex: 1;
+}
+
+.score-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-header h2 {
+  font-size: 24px;
+}
+
+.refresh {
+  background-color: #4caf50;
+  padding: 8px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+
+.scores-container {
+  margin-top: 16px;
+}
+
+.scores-container ul {
+  list-style: none;
+}
+
+.scores-container li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #dbdada;
+}
+
+.submits {
+  width: 400px;
+  flex: 1;
+}
+
+.submits h3 {
+  font-size: 24px;
+}
+
+.input-box {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+.submit-button {
+  background-color: #047dff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+  border: none;
+}
