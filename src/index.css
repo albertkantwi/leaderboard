@@ -1,89 +1,98 @@
-.header-container {
-  background-color: #363636;
-  padding: 16px;
-  color: #fff;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.nav-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-weight: 700;
-  font-size: 24px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.main-container {
-  padding: 32px;
-  display: flex;
-  gap: 32px;
-  flex-wrap: wrap;
-}
-
-.scores {
-  flex: 1;
-}
-
-.score-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.score-header h2 {
-  font-size: 24px;
-  margin-left: 40px;
-}
-
-.refresh {
-  background-color: #4caf50;
-  padding: 8px 18px;
+body {
+  border: 2px solid black;
+  margin: 20px;
   border-radius: 5px;
-  cursor: pointer;
-  color: #fff;
-  border: none;
 }
 
-.scores-container {
-  margin-top: 16px;
+.container {
+  display: flex;
+  justify-content: center;
 }
 
-.scores-container ul {
-  list-style: none;
+.recent-scores,
+.frm-add-score {
+  width: 40%;
+  margin: 2%;
+  border-radius: 5px;
+  border: gray solid 2px;
 }
 
-.scores-container li {
+.recent-scores {
+  padding: 0.75rem;
+}
+
+.frm-add-score {
+  padding: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
   display: flex;
   justify-content: space-between;
-  padding: 8px 0;
-  border-bottom: 1px solid #dbdada;
 }
 
-.submits {
-  width: 400px;
-  flex: 1;
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  color: black;
+  width: 100px;
+  max-height: 25px;
+  border: black solid 2px;
+  border-radius: 3px;
+  padding: 5px 0;
+  font-weight: 600;
 }
 
-.submits h3 {
-  font-size: 24px;
-}
-
-.input-box {
+.recent-scores h3 {
+  font-family: sans-serif;
   width: 100%;
-  padding: 8px;
-  margin-top: 8px;
+  font-size: 2rem;
 }
 
-.submit-button {
-  background-color: #047dff;
-  color: #fff;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 8px;
-  border: none;
+.frm-add-score h3 {
+  font-family: sans-serif;
+  width: 100%;
+  margin: 0 0 12px 0;
+}
+
+.frm-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 30px;
+}
+
+.score-display {
+  border: gray solid 2px;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+
+.score-display ul {
+  list-style-type: none;
+}
+
+.score-display li {
+  font-weight: 500;
+  padding: 8px 12px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
 }
