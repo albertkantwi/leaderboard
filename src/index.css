@@ -24,12 +24,14 @@ body {
 
 .recent-scores {
   padding: 0.75rem;
+  background-color: #ecf1dd;
 }
 
 .frm-add-score {
   padding: 0.75rem;
   display: flex;
   justify-content: center;
+  background-color: #ecf1dd;
   align-items: center;
 }
 
@@ -87,6 +89,14 @@ h1 {
 .score-display li {
   font-weight: 500;
   padding: 8px 12px;
+}
+
+li:nth-child(even) {
+  background-color: gray;
+}
+
+li:nth-child(odd) {
+  background-color: lightgray;
 }
 
 .success {
